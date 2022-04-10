@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right,  rgb(247, 107, 205), rgb(243, 243, 137));
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #2E3192;
+    border: none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.aboutPageTitle{
+    z-index: 1;
+    margin-top: 20%;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: white;
+    text-shadow: 2px 2px 5px #1f2274;
+}
+
+.aboutPageText{
+    text-align: justify;
+    padding: 5%;
+}
+
+.aboutPageText h1{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+#about{
+    background-color: white;
+    margin-top: 18%;
+}
+
+.contact{
+    background-color: white;
+    box-shadow: none;
+}
+
+.contact:hover{
+    box-shadow: none;
+}
+
+.contactTitle{
+    z-index: 1;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: white;
+    text-shadow: 2px 2px 5px #1f2274;
+}
+
+.footerText{
+    padding: 1% 0 1% 0;
+}
